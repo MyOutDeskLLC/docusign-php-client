@@ -77,7 +77,7 @@ class TemplateTabs implements ModelInterface, ArrayAccess
         'full_name_tabs' => '\DocuSign\eSign\Model\FullName[]',
         'initial_here_tabs' => '\DocuSign\eSign\Model\InitialHere[]',
         'last_name_tabs' => '\DocuSign\eSign\Model\LastName[]',
-        'list_tabs' => '\DocuSign\eSign\Model\array[]',
+        'list_tabs' => '\DocuSign\eSign\Model\ModelList[]',
         'notarize_tabs' => '\DocuSign\eSign\Model\Notarize[]',
         'notary_seal_tabs' => '\DocuSign\eSign\Model\NotarySeal[]',
         'note_tabs' => '\DocuSign\eSign\Model\Note[]',
@@ -909,7 +909,7 @@ class TemplateTabs implements ModelInterface, ArrayAccess
     /**
      * Gets list_tabs
      *
-     * @return \DocuSign\eSign\Model\array[]
+     * @return \DocuSign\eSign\Model\ModelList[]
      */
     public function getListTabs()
     {
@@ -919,7 +919,7 @@ class TemplateTabs implements ModelInterface, ArrayAccess
     /**
      * Sets list_tabs
      *
-     * @param \DocuSign\eSign\Model\array[] $list_tabs Specify this tag to give your recipient a list of options, presented as a drop-down list, from which they can select.
+     * @param \DocuSign\eSign\Model\ModelList[] $list_tabs Specify this tag to give your recipient a list of options, presented as a drop-down list, from which they can select.
      *
      * @return $this
      */
